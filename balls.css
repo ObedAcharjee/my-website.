@@ -7,6 +7,8 @@ body {
     margin: 0; /* Remove default margin */
     font-family: 'Press Start 2P', cursive;
     background-color: white;
+    background-image: url(vlcsnap-2023-11-01-21h45m11s327.png);
+    background-size: cover;
 }
 
 /* Style the text above the box */
