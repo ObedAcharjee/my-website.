@@ -1,11 +1,30 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     height: 100vh; /* Make the body take up the full viewport height */
     margin: 0; /* Remove default margin */
-    font-family: 'Press Start 2P', cursive
+    font-family: 'Press Start 2P', cursive;
     background-color: white;
+}
+
+/* Style the text above the box */
+.press-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px; /* Space between text and box */
+    text-align: center;
+    position: relative;
+}
+
+/* Arrow pointing downwards */
+.press-text::after {
+    content: '\2193'; /* Unicode for downward arrow */
+    display: block;
+    font-size: 2rem;
+    margin-top: 5px;
 }
 
 /* Style the button */
@@ -21,7 +40,7 @@ body {
     cursor: pointer; /* Change cursor to pointer on hover */
     color: black; /* Text color */
     outline: none; /* Remove default button outline */
-    font-family: 'Press Start 2P', cursive
+    font-family: 'Press Start 2P', cursive;
 }
 
 /* Pixel art border effect */
@@ -56,7 +75,7 @@ body {
 /* Add a hover effect */
 .text:hover {
     background-color: darkgray; /* Darker background on hover */
-    color: white; /* Change text color on hover */
+    color: black; /* Change text color on hover */
 }
 
 /* Add an active effect (when clicked) */
