@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Pixel Button</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="balls.css">
+</head>
+<body>
+    <!-- Audio element -->
+    <audio id="audio" src="Balls In Yo Jaws - Sound Effect.mp3"></audio> <!-- Replace "sound.mp3" with your audio file -->
+
+    <!-- Clickable button -->
+    <button class="text" onclick="playAudio()">
+        <p>Balls</p>
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+        function playAudio() {
+            const audio = document.getElementById('audio');
+            audio.play(); // Play the audio
+        }
+    </script>
+</body>
+</html>
