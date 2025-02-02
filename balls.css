@@ -4,7 +4,8 @@ body {
     align-items: center; /* Center vertically */
     height: 100vh; /* Make the body take up the full viewport height */
     margin: 0; /* Remove default margin */
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', cursive
+    background-color: white;
 }
 
 /* Style the button */
