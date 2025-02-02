@@ -5,7 +5,6 @@ body {
     height: 100vh; /* Make the body take up the full viewport height */
     margin: 0; /* Remove default margin */
     font-family: 'Press Start 2P', cursive;
-    background-color: #000; /* Black background for a retro feel */
 }
 
 /* Style the button */
